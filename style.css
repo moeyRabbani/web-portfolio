@@ -120,3 +120,9 @@ p a i{
     margin: 8% 30%;
     border-radius: 10px;
 }
+
+footer {
+    text-align: center;
+    color: grey;
+    font-size: 12px;
+}
