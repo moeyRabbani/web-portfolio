@@ -9,19 +9,22 @@ h1{
 .name-highlight {
     color: #F98726;
 }
-.first {
+.container {
     width: 35%;
-    float: left;
     margin: 5%;
-    padding: 2%;
+    display: inline-block;
+    overflow: hidden;
+   /*border: 1px solid red; */
+    
 }
-.first img{
-    padding-top: 100px;
+.container img{
+  
     width: 100%;
+    
+    
 }
-  p a i{
-    position: relative;
-    display: block;
+p a i{
+    
     color: #F98726;
     font-size: 25px;
     width: 50px;
@@ -29,4 +32,38 @@ h1{
     cursor: pointer;
     padding: 5px;
   }
+
+ 
+
+ #bio {
+     width: 40%;
+     padding-bottom: 10%;
+ } 
+
+ .proj {
+     width: 31%;
+     margin: 1%;
+
+     
+ }
+ .projdiv {
+     margin: 5%;
+ }
+
+.proj-head {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+
+
+.sec2 {
+    margin-bottom: 70px;
+}
+
+
+
+#test {
+    text-align: center;
+}
   
