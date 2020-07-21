@@ -66,4 +66,57 @@ p a i{
 #test {
     text-align: center;
 }
-  
+
+#bio a {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #F98726, rgb(11, 10, 100));
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 500;
+
+}
+
+.testpara {
+    
+    display: inline-block;
+    overflow: hidden;
+    height: 250px;
+    width: 200px;
+    padding-top: 50px;
+    background-color: #F98726;
+}
+.testpara img {
+    height: 80px;
+    width: 80px;
+    
+    border-radius: 50%;
+    border: 1px solid #040f50;
+   
+}
+
+.testname {
+    padding: 0;
+    margin: 0;
+}
+.testpos {
+    margin: 0;
+    padding: 0;
+    color: grey;
+    font-size: 12px;
+}
+.testcom{
+    padding-top: 10px;
+    font-style: italic;
+    color: #ffffffce;
+    font-size: 15px;
+}
+
+.contact {
+    text-align: center;
+    color: #ffffff;
+    padding: 5px 0;
+    background-image: linear-gradient(45deg, #F98726, rgb(224, 142, 34));
+    margin: 8% 30%;
+    border-radius: 10px;
+}
